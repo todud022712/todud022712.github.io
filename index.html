@@ -1,113 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            nav {text-align: center; } 
-            a {text-decoration: none;}
-            h1 {color: antiquewhite; background-color: skyblue; text-align: center;}
-            h3 {color: rgb(88, 133, 230); text-align: center;}
-            a:link {text-decoration: none; color: rgb(83, 240, 240);}
-            a:visited {text-decoration: none; color: rgb(83, 240, 240);}
-            a:hover {text-decoration: none; color: rgb(88, 133, 230);}
-           
-            </style>
-        <title>About me</title>
-        <link href="./bootstrap4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-       
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-            <a class="navbar-brand" href="index.html">Do It Django!</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog_list.html">blog</a>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About me</a>
-                  </li>
-  
+<head>
+    <style>
+        nav {text-align: center; } 
+        a {text-decoration: none;}
+        h1 {color: antiquewhite; background-color: skyblue; text-align: center;}
+        a:link {text-decoration: none; color: rgb(83, 240, 240);}
+        a:visited {text-decoration: none; color: rgb(83, 240, 240);}
+        a:hover {text-decoration: none; color: rgb(88, 133, 230);}
+        </style>
+    <title>이성용의 홈페이지</title>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
+    <script type="text/javascript" src="add_two_numbers.js"></script>
+    <script type="text/javascript" src="what_time_is_it.js"></script>
+</head>
 
-              </ul>
-              
-                  <ul class="navbar-nav ml-auto">
-                   <li class="nav-item active">
-                    <a class="nav-link" href="#">LOG IN </a>
-              
-            </div>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./blog_list.html">Blog</a>
+        <a href="./about_me.html">About Me</a>
+    </nav>
 
-        </div>
-          </nav>
-        
+    <h1>첫번째 크기 헤드라인</h1>
+    <h2>두번째 크기 헤드라인</h2>
+    <h3>세번째 크기 헤드라인</h3>
+    <h4>네번째 크기 헤드라인</h4>
+    <h5>다섯번째 크기 헤드라인</h5>
 
+    <p>문단은 p로 쓰세요. p는 아마도 Paragraph의 앞 자를 따 온 것이겠죠?</p>
+    <a href="https://www.google.com">Go to google</a>
+    <hr />
+    <img src="./images/stay_funky.jpg" width="600px">
+</body>
 
-    <div class="container">
-      <div class="row my-3" >
-        <div class="col-9">
-          <h1>About Me</h1>
-          <h3>디지털기술경영학과 20200396 장세영입니다</h3>
-          <br>
-             <p> 나의 소개 - 경기도 화성에 거주중이고 22살입니다 </p>
-          <br>
-             <p>나의 관심분야</p>
-          <ul>
-              <li> 영상시청 및 편집 </li>
-              <img src="./images/youtube.png" width="50" height="50"> &nbsp;
-              <img src="./images/netflix.png" width="50" height="50">
-              <li> 음악감상 </li>
-              <img src="./images/music.png" width="50" height="50">
-              <li> 포토샵 </li>
-              <img src="./images/ps.png" width="50" height="50">
-          </ul>
-       
-              <p>관심분야 관련 활동 경력 및 이력 - 포토샵과 영상편집에 관심이 생겨 자격증 취득을 준비하고 있습니다 </p>
-          </div>
-
-        <div class="col-3">
-          <a href="index.html"><img src="./images/puppy.jpg" class="img-fluid w-80"></a>
-        </div>
-
-<div class="row">
-  <div class="col-sm col-lg-6 bg-info">
-    <img src="./images/image_a.jpg" class="img-fluid">
-  </div>
-  <div class="col-sm col-lg-3 bg-success">
-    <img src="./images/image_b.jpg" class="img-fluid">
-  </div>
-  <div class="col-sm col-lg-3 bg-warning">
-    <img src="./images/image_c.jpg" class="img-fluid">
-  </div>
-</div>
-        
-        
-      </div>
-    </div>
-
-
-
-       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    </body>
 </html>
